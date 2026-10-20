@@ -1,3 +1,4 @@
+#Apenas a tela de visualizaçao
 while True:
     print("==================")
     print("Sitema de Cadastro")
@@ -14,10 +15,15 @@ while True:
         print("========================")
         print("====Tela de Cadastro====")
         print("========================")
+    #se digitar 2, abre a tela de login
     elif (opcao == 2):
         print("===================")
         print("===tela de login===")
         print("===================")
-    else:
+    #se digitar 3, sai da execução
+    elif(opcao == 3):
         print("Voce está saindo do cadastro, ate mais!")
         break
+    #SE não for nem 1,2 ou 3, mostrar erro e repetir código
+    else:
+        print("Valor digitado , ivalido, use apenas números inteiros do menu")
